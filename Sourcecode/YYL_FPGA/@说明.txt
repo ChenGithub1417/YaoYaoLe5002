@@ -1,0 +1,26 @@
+!!顶层模块在test.v中
+
+//IP:<Block Memory Generator>blk_mem_gen_0
+    Basic:
+        Memory Type:    True Dual Port Ram
+    Port A Options:
+        Write Width:        8
+        Read Width:         8
+        Write Depth:        256
+        Read Depth:         256
+        Operating Mode:     Read First
+        Enable Port Type:   Always Enabled
+    Port B Options:
+        Write Width:        8
+        Read Width:         8
+        Write Depth:        256
+        Read Depth:         256
+        Operating Mode:     Read First
+        Enable Port Type:   Always Enabled
+        
+//IP:<Clocking Wizard>clk_wiz_0
+    Output Clocks:
+        clk_out1:   100MHz
+        clk_out2:   10MHz
+        reset:      false
+        locked:     false
