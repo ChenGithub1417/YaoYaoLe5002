@@ -1,0 +1,1 @@
+！！ESP32部分使用前在 aa_aws_setup.h 中设置AWS与Wifi相关参数并重新编译。
