@@ -1,0 +1,5 @@
+以下库文件有修改
+sea_esp32_qspi.h
+esp32-hal-qspi.h
+
+AWS与Wifi设置在 aa_aws_setup.h 中
